@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+}
+
+#kuy{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ccc;
+}	
+.kuy {
+	border: 1px solid black;
+	width: 30%;
+	height: 100vh;
+	background-color: white;
+}
+
+#list {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.order{
+	border: 2px solid black;
+
+	padding: 10px 5px;
+}
+
+input{
+	margin-left: 10px;
+	width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+li{
+	margin-bottom: 20px;
+}
+
+ul{
+	padding: 0 30px;
+}
+
+button{
+	background-color: salmon;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+button:hover{
+	color: #ccc;
+}
